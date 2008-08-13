@@ -1,5 +1,5 @@
 Name:           fuse-emulator-roms
-Epoch:		2
+Epoch:		1
 Version:        0.9.0
 Release:        2%{?dist}
 Summary:        Spectrum ROM files for use with the Fuse emulator
