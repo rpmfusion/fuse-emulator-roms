@@ -62,7 +62,7 @@ rm -rf %{buildroot}
 
 
 %changelog
-* Wed Aug 13 2008 Lucian Langa <cooly@gnome.eu.org> - 0.9.0-2
+* Wed Aug 13 2008 Lucian Langa <cooly@gnome.eu.org> - 1:0.9.0-2
 - Fix EVR issues
 
 * Mon Jul 28 2008 Lucian Langa <cooly@gnome.eu.org> - 0.9.0-1
