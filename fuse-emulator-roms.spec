@@ -1,6 +1,7 @@
 Name:           fuse-emulator-roms
+Epoch:		2
 Version:        0.9.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Spectrum ROM files for use with the Fuse emulator
 Group:          Applications/Emulators
 License:        Distributable
@@ -11,6 +12,8 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:      noarch
 BuildRequires:  desktop-file-utils
 Requires:       fuse-emulator
+Provides:	%{name} = 2:0.9.0-2
+Obsoletes:	%{name} = 1.2-1
 
 %description
 The Spectrum ROM files, for use with the Fuse Emulator.
@@ -59,6 +62,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed Aug 13 2008 Lucian Langa <cooly@gnome.eu.org> - 0.9.0-2
+- Fix EVR issues
+
 * Mon Jul 28 2008 Lucian Langa <cooly@gnome.eu.org> - 0.9.0-1
 - Make version match fuse-emulator
 - Initial rpmfusion import
