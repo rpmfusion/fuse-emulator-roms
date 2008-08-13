@@ -1,6 +1,7 @@
 Name:           fuse-emulator-roms
+Epoch:		1
 Version:        0.9.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Spectrum ROM files for use with the Fuse emulator
 Group:          Applications/Emulators
 License:        Distributable
@@ -59,6 +60,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed Aug 13 2008 Lucian Langa <cooly@gnome.eu.org> - 1:0.9.0-2
+- Fix EVR issues
+
 * Mon Jul 28 2008 Lucian Langa <cooly@gnome.eu.org> - 0.9.0-1
 - Make version match fuse-emulator
 - Initial rpmfusion import
