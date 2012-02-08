@@ -1,7 +1,7 @@
 Name:           fuse-emulator-roms
 Epoch:		1
 Version:        0.9.0
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Spectrum ROM files for use with the Fuse emulator
 Group:          Applications/Emulators
 License:        Distributable
@@ -62,6 +62,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu Feb 09 2012 Nicolas Chauvet <kwizart@gmail.com> - 1:0.9.0-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_17_Mass_Rebuild
+
 * Sun Mar 29 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 1:0.9.0-3
 - rebuild for new F11 features
 
