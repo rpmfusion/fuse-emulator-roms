@@ -1,7 +1,7 @@
 Name:           fuse-emulator-roms
 Epoch:		1
 Version:        0.9.0
-Release:        15%{?dist}
+Release:        16%{?dist}
 Summary:        Spectrum ROM files for use with the Fuse emulator
 Group:          Applications/Emulators
 License:        Distributable
@@ -62,6 +62,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed Aug 04 2021 RPM Fusion Release Engineering <leigh123linux@gmail.com> - 1:0.9.0-16
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_35_Mass_Rebuild
+
 * Thu Feb 04 2021 RPM Fusion Release Engineering <leigh123linux@gmail.com> - 1:0.9.0-15
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_34_Mass_Rebuild
 
